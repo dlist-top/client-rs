@@ -6,7 +6,7 @@ Official [dlist.top](https://dlist.top) gateway client for Rust.
 
 ```toml
 [dependencies]
-dlist_top = "*"
+dlist-top = "*"
 ```
 
 ## Setup
