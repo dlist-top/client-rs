@@ -38,7 +38,5 @@ async fn main() {
 
     let mut client = Client::new(config::TOKEN, DlistEvents);
     client.connect().await;
-
-    println!("test");
 }
 

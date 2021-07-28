@@ -3,6 +3,10 @@ name = "dlist-top"
 version = "0.1.0"
 authors = ["Jakub <jakub@cubepotato.eu>"]
 edition = "2018"
+repository = "https://github.com/dlist-top/client-rs"
+homepage = "https://github.com/dlist-top/client-rs"
+description = "Official DList.top client for Rust"
+readme = "README.md"
 
 [dependencies]
 tungstenite = "0.14.0"
