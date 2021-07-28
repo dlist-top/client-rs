@@ -1,0 +1,21 @@
+[package]
+name = "dlist-top"
+version = "0.1.0"
+authors = ["Jakub <jakub@cubepotato.eu>"]
+edition = "2018"
+
+[dependencies]
+tungstenite = "0.14.0"
+tokio-tungstenite = { version = "0.15.0", features = ["rustls-tls"] }
+url = "2.2.2"
+tokio = { version = "1.9.0", features = ["full"] }
+futures-util = "0.3.16"
+futures-channel = "0.3.16"
+serde_json = "1.0.64"
+serde = { version = "1.0.126", features = ["derive"] }
+serde_repr = "0.1.7"
+chrono = { version = "0.4.19", features = ["serde"] }
+async-trait = "0.1.50"
+error-chain = "0.12.4"
+tracing = "0.1.23"
+tracing-subscriber = "0.2"
