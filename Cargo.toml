@@ -7,6 +7,7 @@ repository = "https://github.com/dlist-top/client-rs"
 homepage = "https://github.com/dlist-top/client-rs"
 description = "Official DList.top client for Rust"
 readme = "README.md"
+license-file = "LICENSE"
 
 [dependencies]
 tungstenite = "0.14.0"
